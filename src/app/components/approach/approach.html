@@ -13,7 +13,7 @@
             <div class="approach-item" [class.active]="activeIndex === $index" (click)="setActive($index)">
               <div class="item-header">
                 <h3>{{ step.title }}</h3>
-                <span class="material-icons">{{ activeIndex === $index ? 'remove_circle_outline' : 'add_circle_outline' }}</span>
+                <mat-icon>{{ activeIndex === $index ? 'remove_circle_outline' : 'add_circle_outline' }}</mat-icon>
               </div>
               <div class="item-body" *ngIf="activeIndex === $index">
                 <p>{{ step.description }}</p>

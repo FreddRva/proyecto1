@@ -8,13 +8,15 @@
         <ul class="why-list">
           @for (item of list; track item.id) {
             <li>
-              <span class="dot"></span>
+              <mat-icon class="li-icon">check_circle</mat-icon>
               {{ item.text }}
             </li>
           }
         </ul>
         
-        <a href="#" class="btn-dark">Learn More <span class="material-icons" style="font-size: 16px; margin-left: 8px;">arrow_forward</span></a>
+        <button mat-flat-button color="primary" class="btn-dark-mat">
+          Learn More <mat-icon style="margin-left: 8px;">arrow_forward</mat-icon>
+        </button>
       </div>
       
       <div class="why-image">

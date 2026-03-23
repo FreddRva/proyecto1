@@ -12,7 +12,7 @@ nav {
   backdrop-filter: blur(20px);
   z-index: 1000;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  color: var(--white); /* White text for contrast over Hero */
+  color: var(--white);
 }
 
 .logo {
@@ -41,21 +41,12 @@ nav {
   color: var(--accent-color);
 }
 
-.nav-btn {
-  background: var(--white);
-  color: var(--primary-color);
-  padding: 10px 25px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 500;
-  display: inline-flex;
-  align-items: center;
-  transition: transform 0.3s;
-}
-
-.nav-btn:hover {
-  transform: scale(1.05);
+.nav-btn-mat {
+  background: var(--white) !important;
+  color: var(--primary-color) !important;
+  border-radius: 50px !important;
+  font-family: var(--font-main) !important;
+  font-weight: 500 !important;
 }
 
 @media (max-width: 900px) {

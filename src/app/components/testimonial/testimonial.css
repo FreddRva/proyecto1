@@ -40,14 +40,13 @@ section {
   object-fit: cover;
 }
 
-.btn-primary {
-  background: var(--primary-color);
-  color: var(--white);
-  padding: 15px 40px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: 500;
-  display: inline-block;
+.btn-dark-mat {
+  background: var(--primary-color) !important;
+  color: var(--white) !important;
+  padding: 25px 40px !important;
+  border-radius: 50px !important;
+  font-family: var(--font-main) !important;
+  font-weight: 500 !important;
 }
 
 h2 {
